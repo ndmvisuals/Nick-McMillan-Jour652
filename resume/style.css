@@ -6,49 +6,109 @@ body{
   color: #444;
   font-weight: 400;
 }
+
+#container{
+  width:100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
 /*Banner Name at Top*/
-h1 {
+#name{
   font-size: 3em;
   text-transform: uppercase;
   text-align: center;
   color: #33485e;
+
+  border-bottom: 1px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
 }
 
 /*My  Title*/
-strong {
+#title{
   color:#33485e;
   text-transform: uppercase;
-  font-size: 1.5em:
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+
+
+
 }
 /*Secition Titles*/
-h2{
+.sectionheader{
   font-size: 1.5em;
-  text-transform: uppercase;
-  background-color: #33485e;
+  background: #33485e;
   color: #fff;
+  text-transform: uppercase;
+
+
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 0;
+  margin-left: 0;
+  width: 70%;
+  min-width: 300px;
+
+
 
 }
 /*Job Titles*/
 
-h3{
+.jobtitle{
   font-size: 1.5em;
   font-weight: 600;
 
 }
 /*Job Organization*/
-h4{
-  font-size: 1.5em;
+.organization{
+  font-size: 1.25em;
   font-weight: 400;
 
 }
 /*Job Dates*/
-h5{
+.date{
   font-size: 1em;
   font-weight: 400;
   font-style: italic;
+  margin-top:2px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+
 
 }
 /*Contact Info*/
-ul{
+.menu{
   font-size: 1em;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+
+  }
+
+.menu li{
+  display: inline;
+  list-style: none;
+}
+
+#degrees{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+.top{
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
   }
