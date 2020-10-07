@@ -5,6 +5,8 @@ body{
   font-size: 1em;
   color: #444;
   font-weight: 400;
+
+  /*Using em to make reactive*/
 }
 
 #container{
@@ -23,7 +25,9 @@ body{
   border-bottom: 1px solid #33485e;
   width: 60%;
   min-width: 300px;
+  /*this will center it*/
   margin: 0 auto;
+
 }
 
 /*My  Title*/
@@ -33,6 +37,8 @@ body{
   font-size: 1.5em;
   font-weight: 600;
   text-align: center;
+
+  /*Setting box margins*/
   margin-top: 20px;
   margin-bottom: 0px;
   margin-right: 0px;
@@ -41,13 +47,13 @@ body{
 
 
 }
-/*Secition Titles*/
+/*Section Titles*/
 .sectionheader{
   font-size: 1.5em;
   background: #33485e;
   color: #fff;
   text-transform: uppercase;
-
+  /*make section titles more heavy*/
 
   font-weight: 400;
   margin-top: 20px;
@@ -93,10 +99,19 @@ body{
   text-align: center;
 
   }
-
+/*only affect list element in menu*/
 .menu li{
   display: inline;
   list-style: none;
+}
+
+#do{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+
+
 }
 
 #degrees{
@@ -105,7 +120,7 @@ body{
     margin-right: 0px;
     margin-left: 0px;
   }
-
+ /*put the top at bottom so it renders last*/
 .top{
     width: 60%;
     min-width: 300px;
