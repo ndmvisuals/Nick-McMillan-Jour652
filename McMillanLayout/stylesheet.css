@@ -1,0 +1,65 @@
+#content{
+  margin: 0 auto;
+  width: 900px;
+
+}
+
+
+
+#byline{
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+font-style: italic;
+}
+
+
+img{ height: auto;
+      max-width: 100%;
+
+}
+
+img.masthead{
+margin: 0 auto;
+display: block;
+
+
+}
+
+p{
+  font-family: Georgia, serif;
+  font-size: 13px;
+
+}
+
+
+.image-title{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+}
+
+.image-source{
+
+  color: #666;
+  font-size: 10px;
+}
+
+.image-description{
+font-size: 10px;
+
+}
+
+ul {
+ list-style-type: none;
+}
+
+blockquote{
+
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  font-size: 20px;
+}
