@@ -18,6 +18,7 @@ img{ height: auto;
 
 }
 
+/* centering masthead photo */
 img.masthead{
 margin: 0 auto;
 display: block;
@@ -31,7 +32,7 @@ p{
 
 }
 
-
+/* for any images that have a title, makes bold */
 .image-title{
   display: block;
   margin-left: auto;
@@ -39,21 +40,22 @@ p{
   font-weight: bold;
 }
 
+/* formats image sources, makes smaller and grey */
 .image-source{
 
   color: #666;
   font-size: 10px;
 }
-
+/* formats image description, makes smaller */
 .image-description{
 font-size: 10px;
 
 }
-
+/* gets rid of bullets*/
 ul {
  list-style-type: none;
 }
-
+/* makes block quote stand out more */
 blockquote{
 
   background: #f9f9f9;
