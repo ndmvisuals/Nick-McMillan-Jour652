@@ -1,0 +1,142 @@
+#content{
+  margin: 0 auto;
+  width: 900px;
+
+}
+
+
+
+#byline{
+font-family: Helvetica, sans-serif;
+font-size: 13px;
+font-style: italic;
+font-weight: lighter;
+}
+
+
+img{ height: auto;
+      max-width: 100%;
+
+}
+
+/* centering masthead photo */
+img.masthead{
+margin: 0 auto;
+display: block;
+
+
+}
+
+/* Paragraph Text */
+p{
+  font-family: Helvetica, Arial; Sans-Serif;
+  font-size: 12px;
+
+}
+
+/* Main Headline */
+p.headline{
+  font-family: Georgia, serif;
+  font-size: 35px;
+  font-weight: bold;
+
+}
+
+/* subhead */
+p.subhead{
+  font-family: Helvetica, Arial; Sans-Serif;
+  font-size: 22px;
+  border-bottom: 2px solid currentColor;
+  display: inline-block;
+  line-height: 0.85;
+  text-transform: uppercase;
+
+
+
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+/* for any images that have a title, makes bold */
+.image-title{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+}
+
+/* formats image sources, makes smaller and grey */
+.image-source{
+
+  color: #666;
+  font-size: 10px;
+}
+/* formats image description, makes smaller */
+.image-description{
+font-size: 10px;
+
+}
+/* gets rid of bullets*/
+ul {
+ list-style-type: none;
+}
+/* makes block quote stand out more */
+
+.container {
+  background: #fff;
+  width: 100%;
+  max-width: 480px;
+  min-width: 320px;
+  margin: 2em auto 0;
+  padding: 1.5em;
+}
+
+
+
+blockquote {
+  display: block;
+  border-width: 2px 0;
+  border-style: solid;
+  border-color: #eee;
+  padding: 1.5em 0 0.5em;
+  margin: 1.5em 0;
+  position: relative;
+  color: #666;
+}
+blockquote:before {
+  content: '\201C';
+  position: absolute;
+  top: 0em;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  width: 3rem;
+  height: 2rem;
+  font: 6em/1.08em 'PT Sans', sans-serif;
+  color: #666;
+  text-align: center;
+}
+blockquote:after {
+  content: "\2013 \2003" attr(cite);
+  display: block;
+  text-align: right;
+  font-size: 0.875em;
+  color: #e74c3c;
+}
+/*
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  font-size: 20px;
+}
+*/

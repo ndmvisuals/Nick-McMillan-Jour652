@@ -1,0 +1,8 @@
+  10/22/2020 10:53:45 AM: Starting composition “Comp 2”.
+
+  Output To: C:\Users\nicho\OneDrive\2020 Nick McMillan\UMD\Fall 2020\Interactive Design and Development [652]\Nick-McMillan-Jour652\midterm\images\soccer-mastehead-v2.psd    10/22/2020 10:53:45 AM: Finished composition “Comp 2”.
+
+
+  Total Time Elapsed: 0 Seconds
+Log closed on 10/22/2020 at 10:53:45 AM
+
