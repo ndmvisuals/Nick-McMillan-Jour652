@@ -12,7 +12,15 @@ p{
   margin-bottom: 4em;
 }
 
+.footer{
+  text-align: center;
+  background-color: #2f98b5;
 
+}
+
+.text{
+  color = white;
+}
 /* title headers for contact, profile etc..*/
 .title {
 
@@ -23,7 +31,7 @@ p{
 }
 /* all text in left column is right centered*/
 .col-md-4 p {
-  
+
 
 }
 /* add border to right*/
