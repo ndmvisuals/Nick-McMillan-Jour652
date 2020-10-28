@@ -1,0 +1,191 @@
+
+
+p{
+  font-family: Montserrat, serif;
+  font-size: 1em;
+
+}
+
+/* masthead*/
+.masthead {
+
+  margin-bottom: 4em;
+}
+
+
+/* title headers for contact, profile etc..*/
+.title {
+
+
+  font-weight: bold;
+  font-size: 1.5em;
+
+}
+/* all text in left column is right centered*/
+.col-md-4 p {
+  
+
+}
+/* add border to right*/
+.col-md-4 {
+
+   border-right: .12em solid 	#000000;
+}
+.left-title {
+
+
+
+
+  text-align: center;
+}
+
+
+.right-title {
+  display: grid;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+  grid-gap: 20px;
+
+}
+
+.right-title:before,
+.right-title:after {
+    content: '';
+    border-top: 2px solid;
+}
+
+
+
+
+
+/* gets rid of bullets*/
+ul {
+ list-style-type: none;
+}
+
+i{
+  color:#2f98b5;
+  margin-bottom: 1em;
+
+
+}
+
+.contact-icon {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-margin {
+  height: 100px;
+}
+/*Job Titles*/
+
+.jobtitle{
+  font-size: 1.3em;
+  font-weight: 600;
+
+}
+/*Job Organization*/
+.organization{
+  font-size: 1.1em;
+  font-weight: 400;
+
+}
+/*Job Dates*/
+.date{
+  font-size: 1em;
+  font-weight: 400;
+  font-style: italic;
+  margin-top:2px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+
+
+}
+/*Contact Info*/
+.menu{
+  font-size: 1em;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+
+  }
+/*only affect list element in menu*/
+.menu li{
+  display: inline;
+  list-style: none;
+}
+
+#do{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+
+
+}
+
+#degrees{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-wrap: wrap
+  }
+  #leftSection {
+    order: 2;
+  }
+  #rightSection {
+    order: 1;
+  }
+
+
+    .title {
+    text-align: center;
+
+
+    }
+
+    .col-md-4 {
+      border-right: 0em solid 	#000000;
+
+    }
+
+    .left-title {
+      display: grid;
+      width: 100%;
+      align-items: center;
+      text-align: center;
+      grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+      grid-gap: 20px;
+
+    }
+
+    .left-title:before,
+    .left-title:after {
+        content: '';
+        border-top: 2px solid;
+    }
+
+
+
+
+
+
+
+    }
+  }
