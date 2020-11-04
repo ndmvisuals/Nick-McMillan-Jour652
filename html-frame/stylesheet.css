@@ -1,16 +1,13 @@
-#content{
-  margin: 0 auto;
-  width: 900px;
-
-}
 
 
+/* Set Body Style */
 body{
   font-family: Montserrat, serif;
   font-size: 1em;
 
 }
 
+/* nav bar space before header */
 .navbar{
 
   margin-bottom: 3em;
