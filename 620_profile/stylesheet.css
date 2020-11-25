@@ -51,6 +51,7 @@ img{ height: auto;
 /* formats image description, makes smaller */
 .image-description{
 font-size: 10px;
+margin-top: .5em;
 }
 
 .footer {
