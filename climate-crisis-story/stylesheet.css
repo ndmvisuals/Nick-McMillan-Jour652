@@ -1,0 +1,183 @@
+
+
+/* Set Body Style */
+body{
+  font-family: Montserrat, serif;
+  font-size: 1em;
+
+}
+
+/* nav bar space before header */
+.navbar{
+
+  margin-bottom: 3em;
+}
+
+.article-headline{
+
+  text-align: center;
+
+  font-size: 2em
+}
+
+.chapter-headline:after {
+  position: absolute;
+  	content: "";
+  	left: 0;
+  	top: 0;
+  	bottom: 0;
+  	width: 5px;
+  	border-radius: 2px;
+  	box-shadow:
+  		inset 0 1px 1px rgba(0,0,0,0.5),
+  		0 1px 1px rgba(255,255,255,0.3);
+    background: #EB5242;
+
+}
+.chapter-headline{
+
+
+  margin: 1em 0 .6em 0;
+  padding: 0 0 0 20px;
+  font-weight: normal;
+
+
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+  position: relative;
+  font-size: 1.5em;
+  line-height: 1.75em;
+
+}
+
+.byline{
+  font-size: .75em;
+  color: grey;
+  text-align: center;
+  margin-bottom: 3em;
+
+}
+.headline{
+  font-weight: bold;
+}
+
+img{ height: auto;
+      max-width: 100%;
+      margin: 0 auto;
+      display: block;
+}
+
+
+.image-source{
+
+  color: #666;
+  font-size: 10px;
+}
+/* formats image description, makes smaller */
+.image-description{
+font-size: 10px;
+margin-top: .5em;
+
+
+}
+
+.figure{
+  display: block;
+  text-align: center;
+}
+
+/* Block Quote CSS */
+
+blockquote {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    padding: 20px 0px 20px 20px;
+    border-left: none;
+    position: relative;
+    text-indent: -19px
+}
+
+#block_content {
+    /* min-height: 20em; */
+    margin-top: 4em;
+    margin-bottom: 4em;
+    text-align: left
+}
+
+blockquote p {
+    font-size: 1.75em
+}
+
+
+
+blockquote:before,
+blockquote:after {
+    font-family: Arial, serif;
+    font-size: 2.5em;
+    vertical-align: middle;
+    line-height: 0
+}
+
+blockquote:before {
+    content: open-quote;
+    margin-right: 4px
+}
+
+blockquote:after {
+    content: close-quote;
+    margin-left: 3px
+}
+
+blockquote.blockstyle,
+blockquote.style2 {
+    background: #fff;
+    font-style: italic
+}
+
+blockquote.blockstyle p,
+blockquote.style2 p {
+
+    display: inline;
+}
+
+.attribution{
+  margin-top: 2em;
+  font-size: 1em;
+
+}
+blockquote.blockstyle {
+    border-left: 3px solid #f0715f;
+    position: relative
+}
+
+blockquote.blockstyle>span.triangle:before {
+    text-indent: 0;
+    content: "\f0da";
+    font-family: FontAwesome;
+    color: #f0715f;
+    position: absolute;
+    left: -1px;
+    top: 50%;
+    margin-top: -11px;
+    font-style: normal
+}
+
+blockquote.blockstyle:before,
+blockquote.blockstyle:after {
+    color: #f0715f
+}
+
+blockquote.blockstyle.border-color-blue {
+    border-color: #01b7f2
+}
+
+blockquote.blockstyle.border-color-blue>span.triangle:before {
+    color: #01b7f2
+}
+
+blockquote.blockstyle.border-color-yellow {
+    border-color: #fdb714
+}
+
+blockquote.blockstyle.border-color-yellow>span.triangle:before {
+    color: #fdb714
+}
