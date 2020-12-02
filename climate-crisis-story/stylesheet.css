@@ -12,23 +12,25 @@ body{
 
 
 .opener {
-  background-image: url('images/baltimore.jpg');
+  background-image: url('images/baltimore-empty-street.jpg');
   color: #eee;
   text-align: center;
 
+  background-size: cover;
+  background-repeat:: no-repeat;
 }
 
 .opener::after {
   display: block;
   content: "";
-  border-top: 100px solid #333;
+  border-top: 100px solid #cb4154;
   border-left: 100vw solid transparent;
   background-color: #fff;
   margin-bottom: 7em;
 }
 
 .wrapper {
-  p
+  text-align: center;
 
 }
 .article-headline{
