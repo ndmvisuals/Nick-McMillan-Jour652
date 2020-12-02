@@ -7,12 +7,30 @@ body{
 
 }
 
-/* nav bar space before header */
-.navbar{
 
-  margin-bottom: 3em;
+/* nav bar space before header */
+
+
+.opener {
+  background-image: url('images/baltimore.jpg');
+  color: #eee;
+  text-align: center;
+
 }
 
+.opener::after {
+  display: block;
+  content: "";
+  border-top: 100px solid #333;
+  border-left: 100vw solid transparent;
+  background-color: #fff;
+  margin-bottom: 7em;
+}
+
+.wrapper {
+  p
+
+}
 .article-headline{
 
   text-align: center;
@@ -60,16 +78,13 @@ body{
   font-weight: bold;
 }
 
-img{ height: auto;
-      max-width: 100%;
-      margin: 0 auto;
-      display: block;
+img{
 }
 
 iframe{
 
   margin-top: 3em;
-  margin-bottom: 3em;
+  margin-bottom: 4em;
 }
 .image-source{
 
@@ -84,11 +99,64 @@ margin-top: .5em;
 
 }
 
-.figure{
+.figure img{
+  height: auto;
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
   display: block;
   text-align: center;
 }
 
+/*splash*/
+
+
+
+/*
+
+.hero-container {
+  position: relative;
+  text-align: center;
+  color:#fff
+
+}
+
+
+.hero-container img{
+  width: 100%;
+}
+
+
+
+.overlay {
+  position: absolute;
+  top: 20%;
+  width:100%;
+  background: #000;
+  opacity: .75
+
+}
+
+.hero-hed{
+  font-size: 5em;
+  color:#fff;
+  margin: 0 auto;
+  padding-bottom: 10px;
+
+
+}
+
+.hero-sub {
+  font-size: .25em;
+}
+
+.line {
+  width: 1em;
+  height : 10em;
+  background: red;
+  transform: rotate(45deg) translateX(30em) translateY(-25em);
+}
+*/
 /* Block Quote CSS */
 
 blockquote {
@@ -184,4 +252,24 @@ blockquote.blockstyle.border-color-yellow {
 
 blockquote.blockstyle.border-color-yellow>span.triangle:before {
     color: #fdb714
+}
+
+/* Media Queries */
+
+@media(max-width:650px){
+
+  p { padding-left: 20px;
+      padding-right: 10px;
+     }
+
+  .chapter-head{
+    font-size: 1.25em;
+
+  }
+
+
+
+  .hero-hed{
+    font-size: 1.5em;
+  }
 }
