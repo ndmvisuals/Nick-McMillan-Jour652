@@ -11,16 +11,29 @@ body{
 /* nav bar space before header */
 
 
-.opener {
-  background-image: url('images/baltimore-empty-street.jpg');
+.hero-container {
+/*
   color: #eee;
   text-align: center;
 
   background-size: cover;
   background-repeat:: no-repeat;
+  height:100%;
+  */
+
+  position: relative;
+  text-align: center;
+  color: #fff;
+  background-color: black;
 }
 
-.opener::after {
+.hero-container img{
+  width: 100%;
+  opacity: .7;
+  background-color: #FF0000;
+}
+
+.hero-container::after {
   display: block;
   content: "";
   border-top: 100px solid #cb4154;
@@ -29,15 +42,38 @@ body{
   margin-bottom: 7em;
 }
 
-.wrapper {
-  text-align: center;
+.overlay {
+  position: absolute;
+  top:30%;
+  width:100%;
+
+
 
 }
+  .hero-hed{
+    font-size: 5em;
+    color:#fff;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    text-shadow: 0 1px 0 black;
+    font-family: 'Taviraj', serif;
+
+  }
+
+  .hero-sub {
+    font-size: 1em;
+    text-shadow: 0 1px 0 black;
+    font-family: 'Taviraj', serif;
+  }
+
+
 .article-headline{
 
   text-align: center;
 
-  font-size: 2em
+  font-size: 2em;
+
+  font-family: 'Taviraj', serif;
 }
 
 .chapter-headline:after {
@@ -51,7 +87,7 @@ body{
   	box-shadow:
   		inset 0 1px 1px rgba(0,0,0,0.5),
   		0 1px 1px rgba(255,255,255,0.3);
-    background: #EB5242;
+    background: #cb4154;
 
 }
 .chapter-headline{
@@ -60,11 +96,11 @@ body{
   margin: 1em 0 .6em 0;
   padding: 0 0 0 20px;
   font-weight: normal;
+  text-transform: uppercase;
 
 
-  text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
   position: relative;
-  font-size: 1.5em;
+  font-size: 2em;
   line-height: 1.75em;
 
 }
@@ -72,16 +108,20 @@ body{
 .byline{
   font-size: .75em;
   color: grey;
-  text-align: center;
+
   margin-bottom: 3em;
+  text-align: center;
 
 }
 .headline{
   font-weight: bold;
 }
 
-img{
+.pullout {
+  margin-top: 5em;
+  margin-bottom: 5em;
 }
+
 
 iframe{
 
@@ -95,71 +135,49 @@ iframe{
 }
 /* formats image description, makes smaller */
 .image-description{
-font-size: 10px;
+font-size: .9em;
 margin-top: .5em;
+color: #666;
 
 
 }
 
 .figure img{
   height: auto;
-  max-width: 100%;
-  margin: 0 auto;
-  display: block;
-  display: block;
-  text-align: center;
-}
-
-/*splash*/
-
-
-
-/*
-
-.hero-container {
-  position: relative;
-  text-align: center;
-  color:#fff
-
-}
-
-
-.hero-container img{
   width: 100%;
-}
-
-
-
-.overlay {
-  position: absolute;
-  top: 20%;
-  width:100%;
-  background: #000;
-  opacity: .75
-
-}
-
-.hero-hed{
-  font-size: 5em;
-  color:#fff;
   margin: 0 auto;
-  padding-bottom: 10px;
-
+  display: block;
+  display: block;
 
 }
 
-.hero-sub {
-  font-size: .25em;
+
+
+/* unvisited link */
+a:link {
+  color: #cb4154;
+
+  text-decoration: underline;
 }
 
-.line {
-  width: 1em;
-  height : 10em;
-  background: red;
-  transform: rotate(45deg) translateX(30em) translateY(-25em);
+/* visited link */
+a:visited {
+  color: #868686;
+
+  text-decoration: underline;
 }
-*/
-/* Block Quote CSS */
+
+/* mouse over link */
+a:hover {
+  color: #a82e3f;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: #cb4154;
+  text-decoration: underline;
+}
 
 blockquote {
     font-size: 1.1em;
@@ -227,7 +245,7 @@ blockquote.blockstyle>span.triangle:before {
     text-indent: 0;
     content: "\f0da";
     font-family: FontAwesome;
-    color: #f0715f;
+    color: #cb4154;
     position: absolute;
     left: -1px;
     top: 50%;
@@ -237,11 +255,11 @@ blockquote.blockstyle>span.triangle:before {
 
 blockquote.blockstyle:before,
 blockquote.blockstyle:after {
-    color: #f0715f
+    color: #cb4154
 }
 
 blockquote.blockstyle.border-color-blue {
-    border-color: #01b7f2
+    border-color: #cb4154
 }
 
 blockquote.blockstyle.border-color-blue>span.triangle:before {
