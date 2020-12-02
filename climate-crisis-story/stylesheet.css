@@ -58,12 +58,15 @@ body{
     text-shadow: 0 1px 0 black;
     font-family: 'Taviraj', serif;
 
+
+
   }
 
   .hero-sub {
     font-size: 1em;
     text-shadow: 0 1px 0 black;
     font-family: 'Taviraj', serif;
+
   }
 
 
@@ -276,7 +279,7 @@ blockquote.blockstyle.border-color-yellow>span.triangle:before {
 
 /* Media Queries */
 
-@media(max-width:650px){
+@media(max-width:900px){
 
   p { padding-left: 20px;
       padding-right: 10px;
