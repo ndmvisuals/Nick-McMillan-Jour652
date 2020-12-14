@@ -7,6 +7,10 @@ body{
   background: white;
   color: black;
 }
+
+ul{
+  text-align: center;
+}
 .widget-title {
   display: flex;
   align-items: center;
@@ -69,7 +73,7 @@ body{
 
   background-image: url("images/smokestacks.jpg");
   height: 1000px;
-  margin-bottom: 50px;
+
   background-attachment: fixed;
   background-position: center ;
   background-repeat: no-repeat;
