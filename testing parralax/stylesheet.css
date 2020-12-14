@@ -1,0 +1,57 @@
+
+
+/* Parallax base styles
+--------------------------------------------- */
+body{
+  font-family: Montserrat, serif;
+  font-size: 1em;
+  background: black;
+  color: white;
+
+
+}
+
+#parallax-image{
+
+  background-image: url("images/trees.jfif");
+  height: 500px;
+  margin-bottom: 50px;
+  background-attachment: fixed;
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#parallax-image2{
+
+  background-image: url("images/melissacandy.jpg");
+  height: 500px;
+  margin-bottom: 50px;
+  background-attachment: fixed;
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#parallax-image3{
+
+  background-image: url("images/place-holder.jpg");
+  height: 100px;
+  margin-bottom: 50px;
+  background-attachment: fixed;
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.article-headline{
+
+  text-align: center;
+
+  font-size: 2em;
+
+  font-family: 'Taviraj', serif;
+}
