@@ -8,9 +8,8 @@ body{
   color: black;
 }
 
-ul{
-  text-align: center;
-}
+
+/* Putting Brackets on Title */
 .widget-title {
   display: flex;
   align-items: center;
@@ -19,9 +18,6 @@ ul{
   content: '[';
   color: #FADA5E;
   font-size: 200px;
-
-
-
 }
 
 .header {
@@ -39,6 +35,7 @@ ul{
 
 }
 
+/* Putting Brackets on Chapter Headers */
 .widget-header {
   display: flex;
   align-items: center;
@@ -68,6 +65,9 @@ ul{
 
 
 }
+
+/*Paralax full screen images, credit to steve tech youtube for the general idea
+of how to impletment*/
 
 #parallax-image{
 
@@ -104,7 +104,7 @@ ul{
 
 }
 
-
+/* Photo captions for parralax images */
 .parallax-description{
 font-size: .9em;
 
@@ -115,40 +115,16 @@ margin-bottom: 4em;
 
 
 }
-/* nav bar space before header */
+/* make white background for datawrapper graphics */
 
 iframe{
   background: white;
-}
-
-.hero-container {
-/*
-  color: #eee;
-  text-align: center;
-
-  background-size: cover;
-  background-repeat:: no-repeat;
-  height:100%;
-  */
-
-  position: relative;
-  text-align: center;
-  color: #fff;
-  background-color: black;
-}
-
-.hero-container img{
-  width: 100%;
-  opacity: .7;
-  background-color: #FF0000;
+  margin-top: 3em;
+  margin-bottom: 4em;
 }
 
 
-
-
-
-
-
+/*Design of Title*/
 
   .hero-hed{
     font-size: 5em;
@@ -171,32 +147,7 @@ iframe{
   }
 
 
-.article-headline{
-
-  text-align: center;
-
-  font-size: 2em;
-
-  font-family: 'Taviraj', serif;
-}
-
-.chapter-headline:after {
-  position: absolute;
-  	content: "";
-  	left: 0;
-  	top: 0;
-  	bottom: 0;
-  	width: 5px;
-  	border-radius: 2px;
-  	box-shadow:
-  		inset 0 1px 1px rgba(0,0,0,0.5),
-  		0 1px 1px rgba(255,255,255,0.3);
-    background: #FADA5E;
-
-}
-
-
-
+/* Stylize byline */
 
 .byline{
   font-size: .75em;
@@ -208,22 +159,15 @@ iframe{
 }
 
 
+
 .pullout {
   margin-top: 5em;
   margin-bottom: 5em;
 }
 
 
-iframe{
 
-  margin-top: 3em;
-  margin-bottom: 4em;
-}
-.image-source{
 
-  color: #666;
-  font-size: 10px;
-}
 /* formats image description, makes smaller */
 .image-description{
 font-size: .9em;
@@ -233,12 +177,14 @@ color: #666;
 
 }
 
+/* formats images that are no parralx */
+
 .figure img{
   height: auto;
   width: 100%;
   margin: 0 auto;
   display: block;
-  display: block;
+
 
 }
 
@@ -270,6 +216,8 @@ a:active {
   text-decoration: underline;
 }
 
+
+/* stylizing blockquote, adapted style from css-tricks */
 blockquote {
     font-size: 1.1em;
     line-height: 1.6em;
@@ -294,7 +242,7 @@ blockquote p {
 
 blockquote:before,
 blockquote:after {
-    font-family: Arial, serif;
+    font-family: 'Taviraj', serif;
     font-size: 2.5em;
     vertical-align: middle;
     line-height: 0
@@ -310,14 +258,12 @@ blockquote:after {
     margin-left: 3px
 }
 
-blockquote.blockstyle,
-blockquote.style2 {
+blockquote.blockstyle {
     background: #fff;
     font-style: italic
 }
 
-blockquote.blockstyle p,
-blockquote.style2 p {
+blockquote.blockstyle p {
 
     display: inline;
 }
@@ -349,21 +295,7 @@ blockquote.blockstyle:after {
     color: #cb4154
 }
 
-blockquote.blockstyle.border-color-blue {
-    border-color: #cb4154
-}
 
-blockquote.blockstyle.border-color-blue>span.triangle:before {
-    color: #01b7f2
-}
-
-blockquote.blockstyle.border-color-yellow {
-    border-color: #fdb714
-}
-
-blockquote.blockstyle.border-color-yellow>span.triangle:before {
-    color: #fdb714
-}
 
 /* Media Queries */
 
@@ -373,14 +305,5 @@ blockquote.blockstyle.border-color-yellow>span.triangle:before {
       padding-right: 10px;
      }
 
-  .chapter-head{
-    font-size: 1.25em;
 
-  }
-
-
-
-  .hero-hed{
-    font-size: 1.5em;
-  }
 }
